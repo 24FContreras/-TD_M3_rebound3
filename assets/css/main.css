@@ -1,0 +1,34 @@
+.card-img-overlay {
+  background-color: hsla(224, 92%, 5%, 0.6);
+  opacity: 0;
+}
+
+.card-img-overlay h5 {
+  letter-spacing: 0.25rem;
+}
+
+#photocard {
+  width: 20rem;
+  height: 12rem;
+}
+
+#photocard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.location::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f041 ";
+  margin-right: 0.35rem;
+}
+
+.info-text::before {
+  content: '"';
+}
+
+.info-text::after {
+  content: '"';
+}
